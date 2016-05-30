@@ -131,7 +131,7 @@ chmod u+x $JBOSS_HOME/bin/standalone.sh
 
 echo "You can now start the $PRODUCT with $SERVER_BIN/standalone.sh"
 echo
-echo "Login to http://localhost:8080/business-central   (u:erics / p:bpmsuite1!)"
+echo "Log in to http://localhost:8080/business-central   (u:erics / p:bpmsuite1!)"
 echo
 
 echo "$PRODUCT $VERSION $DEMO Setup Complete."
