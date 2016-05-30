@@ -43,7 +43,7 @@ echo ##########################################################################
 echo.
 
 REM make some checks first before proceeding.	
-if exist %SRC_DIR%\%EAP% (
+if exist "%SRC_DIR%\%EAP%" (
         echo Product sources are present...
         echo.
 ) else (
@@ -53,7 +53,7 @@ if exist %SRC_DIR%\%EAP% (
         GOTO :EOF
 )
 
-if exist %SRC_DIR%\%EAP_PATCH% (
+if exist "%SRC_DIR%\%EAP_PATCH%" (
         echo Product patches are present...
         echo.
 ) else (
@@ -63,7 +63,7 @@ if exist %SRC_DIR%\%EAP_PATCH% (
         GOTO :EOF
 )
 
-if exist %SRC_DIR%\%BPMS% (
+if exist "%SRC_DIR%\%BPMS%" (
         echo Product sources are present...
         echo.
 ) else (
