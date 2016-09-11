@@ -18,9 +18,36 @@ Option 1 - Install on your machine
 5. Enjoy installed and configured JBoss BPM Suite.
 
 
+Option 2 - Generate containerized installation
+----------------------------------------------
+The following steps can be used to configure and run the demo in a container
+
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-3-easy-install-demo/archive/master.zip)
+
+2. Add product installer to installs directory.
+
+3. Build demo image.
+
+	```
+	docker build -t effectivebpmwithjbossbpm/chapter-3-easy-install-demo .
+	```
+4. Start demo container
+
+	```
+	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-3-easy-install-demo
+	```
+5. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!) 
+
+   ```
+   determine DOCKER_HOST with $ docker-machine env
+   ```
+
+
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.1 - JBoss BPM Suite 6.3.0 installed on JBoss EAP 6.4.7 and optional containerized install.
 
 - v1.0 - JBoss BPM Suite 6.2.0 installed on JBoss EAP 6.4.4.
 
