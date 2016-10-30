@@ -128,11 +128,19 @@ echo "  - making sure standalone.sh for server is executable..."
 echo
 chmod u+x $JBOSS_HOME/bin/standalone.sh
 
-echo "You can now start the $PRODUCT with $SERVER_BIN/standalone.sh"
 echo
-echo "Log in to http://localhost:8080/business-central   (u:erics / p:bpmsuite1!)"
-echo
-
-echo "$PRODUCT $VERSION $DEMO Setup Complete."
+echo "========================================================================"
+echo "=                                                                      ="
+echo "=  You can now start the $PRODUCT with:                         ="
+echo "=                                                                      ="
+echo "=   $SERVER_BIN/standalone.sh                      ="
+echo "=                                                                      ="
+echo "=  Log in into business central at:                                    ="
+echo "=                                                                      ="
+echo "=    http://localhost:8080/business-central  (u:erics / p:bpmsuite1!)  ="
+echo "=                                                                      ="
+echo "=  $PRODUCT $VERSION $DEMO Setup Complete.              ="
+echo "=                                                                      ="
+echo "========================================================================"
 echo
 
