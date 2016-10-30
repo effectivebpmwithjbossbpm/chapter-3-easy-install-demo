@@ -2,7 +2,7 @@
 setlocal
 
 set PROJECT_HOME=%~dp0
-set DEMO=Install Demo
+set DEMO=Chapter 3 Easy Install Demo
 set AUTHORS=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:effectivebpmwithjbossbpm/chapter-3-easy-install-demo.git"
 set PRODUCT=JBoss BPM Suite
@@ -24,7 +24,7 @@ cls
 echo.
 echo ###############################################################################
 echo ##                                                                           ##   
-echo ##  Setting up the %DEMO%                                              ##
+echo ##  Setting up the %DEMO%                               ##
 echo ##                                                                           ##   
 echo ##                                                                           ##   
 echo ##     ####  ####   #   #      ### #   # ##### ##### #####                   ##

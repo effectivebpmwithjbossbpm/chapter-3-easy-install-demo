@@ -1,5 +1,5 @@
 #!/bin/sh 
-DEMO="Easy Install Demo"
+DEMO="Chapter 3 Easy Install Demo"
 AUTHORS="Andrew Block, Eric D. Schabell"
 PROJECT="git@github.com:effectivebpmwithjbossbpm/chapter-3-easy-install-demo.git"
 PRODUCT="JBoss BPM Suite"
@@ -20,7 +20,7 @@ clear
 echo
 echo "###############################################################################"
 echo "##                                                                           ##"   
-echo "##  Setting up the ${DEMO}                                         ##"
+echo "##  Setting up the ${DEMO}                               ##"
 echo "##                                                                           ##"   
 echo "##                                                                           ##"   
 echo "##     ####  ####   #   #      ### #   # ##### ##### #####                   ##"
