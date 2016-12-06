@@ -36,16 +36,14 @@ The following steps can be used to configure and run the demo in a container
 	```
 	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-3-easy-install-demo
 	```
-5. Login to http://&lt;DOCKER_HOST&gt;:8080/business-central (u:erics / p:bpmsuite1!) 
-
-   ```
-   determine DOCKER_HOST with $ docker-machine env
-   ```
+Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
 
 
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.2 - JBoss BPM Suite 6.4.0 installed on JBoss EAP 7.0.0 and optional containerized install.
 
 - v1.1 - JBoss BPM Suite 6.3.0 installed on JBoss EAP 6.4.7 and optional containerized install.
 
