@@ -99,7 +99,7 @@ if not "%ERRORLEVEL%" == "0" (
 echo.
 echo - enabling demo accounts role setup in application-roles.properties file...
 echo.
-call %JBOSS_HOME%/bin/add-user.bat /a /r "ApplicaitonRealm" /u "erics" /p "bpmsuite1!" /ro "analyst,admin,manager,user,kie-server,kiemgmt,rest-all"
+call %JBOSS_HOME%\bin\add-user.bat -a -r ApplicationRealm -u erics -p bpmsuite1! -ro analyst,admin,manager,user,kie-server,kiemgmt,rest-all 
 echo. 
 
 echo - setting up standalone.xml configuration adjustments...
