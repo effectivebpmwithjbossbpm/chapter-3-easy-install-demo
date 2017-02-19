@@ -9,7 +9,7 @@ Option 1 - Install on your machine
 ----------------------------------
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-3-easy-install-demo/archive/master.zip)
 
-2. Add products to installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges. 
 
@@ -24,7 +24,7 @@ The following steps can be used to configure and run the demo in a container
 
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/chapter-3-easy-install-demo/archive/master.zip)
 
-2. Add products to installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Build demo image.
 
@@ -36,6 +36,7 @@ The following steps can be used to configure and run the demo in a container
 	```
 	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-3-easy-install-demo
 	```
+
 Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
 
 
