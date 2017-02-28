@@ -34,10 +34,33 @@ The following steps can be used to configure and run the demo in a container
 4. Start demo container
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/chapter-3-easy-install-demo
+	docker run -it -p 8080:8080 -p 9990:9990 -p 8001:8001 effectivebpmwithjbossbpm/chapter-3-easy-install-demo
 	```
 
 Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
+
+Access to inernal container JBoss BPM Suite git repo is available through ssh. For example, if you create a repo called
+'BackOffice', clone it locally with read-write access as follows:
+
+   ```
+   $ git clone ssh://erics@localhost:8001/BackOffice
+
+   Cloning into 'BackOffice'...
+   The authenticity of host '[localhost]:8001 ([::1]:8001)' can't be established.
+   DSA key fingerprint is SHA256:ok9ukS2j16tEHxI9y2I13e8QhkXwIulS0MytwfxEOo0.
+   Are you sure you want to continue connecting (yes/no)? yes
+
+   Warning: Permanently added '[localhost]:8001' (DSA) to the list of known hosts.
+   Password authentication
+   Password: bpmsuite1!
+
+   remote: Counting objects: 3, done
+   remote: Finding sources: 100% (3/3)
+   remote: Getting sizes: 100% (2/2)
+   remote: Compressing objects: 100% (116/116)
+   Receiving objects: 100% (3/3), done.
+   remote: Total 3 (delta 0), reused 0 (delta 0)
+   ```
 
 
 Released versions
