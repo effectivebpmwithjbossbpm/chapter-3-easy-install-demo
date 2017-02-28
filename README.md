@@ -39,8 +39,7 @@ The following steps can be used to configure and run the demo in a container
 
 Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
 
-Access to inernal container JBoss BPM Suite git repo is available through ssh. For example, if you create a repo called
-'BackOffice', clone it locally with read-write access as follows:
+Access to container JBoss BPM Suite git repo is available through ssh. For example, if you create a repo called 'BackOffice', clone it locally with read-write access as follows:
 
    ```
    $ git clone ssh://erics@localhost:8001/BackOffice
