@@ -46,7 +46,7 @@ Read-write access to container JBoss BPM Suite git repo is available through ssh
 
    Cloning into 'BackOffice'...
    The authenticity of host '[localhost]:8001 ([::1]:8001)' can't be established.
-   DSA key fingerprint is SHA256:ok9ukS2j16tEHxI9y2I13e8QhkXwIulS0MytwfxEOo0.
+   DSA key fingerprint is SHA256:ok9ukS2j16
    Are you sure you want to continue connecting (yes/no)? yes
 
    Warning: Permanently added '[localhost]:8001' (DSA) to the list of known hosts.
